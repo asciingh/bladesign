@@ -15,7 +15,7 @@ const getProducts = graphql`{
           }
           category
           image {
-            fluid(maxHeight:426) {
+            fluid(maxHeight:450) {
               src
               ...GatsbyContentfulFluid_tracedSVG
             }

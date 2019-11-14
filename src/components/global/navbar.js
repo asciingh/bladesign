@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import logo from '../../images/art-temp.png'
+import logo from '../../images/bla-logo-bar.png'
 import {Link} from 'gatsby'
 
 export default class Navbar extends Component {
@@ -22,8 +22,14 @@ export default class Navbar extends Component {
             id:3,
             path:'/productDisplay',
             text:'Products'
-        }]
+        },
     
+        {
+            id:4,
+            path:'/contact',
+            text:'Contact'
+        }
+    ]
     }
 
     navBarHandler = () => {

@@ -10,7 +10,7 @@ export default function backgroundsection(
                                 </h1>
                                 {children}
     </BackgroundImage> );
-                            
+                                
 }
 
 backgroundsection.defaultProps ={

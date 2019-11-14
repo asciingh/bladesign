@@ -3,6 +3,7 @@
     --mainYellow: #ff9e09;
     --mainGrey: #ece8dc;
     --mainWhite: #fff;
+    --mainHover: #f26403;
     --mainDark: #222;
 }
 
@@ -18,6 +19,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Courier New', Courier, monospace
     !important;
     letter-spacing: 0.25rem !important;
+}
+
+
+.navbar-back{
+background: #ff9e09;
 }
 
 .text-yellow{
@@ -52,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn-yellow:hover {
-    background: var(--mainYellow);
+    background: var(--mainHover);
     color: var(--mainBrown)  ;
 }
 
